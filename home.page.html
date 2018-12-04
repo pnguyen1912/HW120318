@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+HW 12-3-18
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h1 >Cat</h1>
+  <ion-img style="width: 400px" src="assets/cat.jpg"></ion-img>
+  <ion-card>
+      <ion-card-header>
+        Cat is cute
+      </ion-card-header>
+      <ion-card-content>
+        Cat is super cute
+      </ion-card-content>
+      <ion-toolbar>
+        <ion-buttons slot='end' >
+          <ion-button (click)='catPower()'>Agree</ion-button>
+          <ion-button>Disagree</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+  </ion-card>
+  <h1>Dog</h1>
+  <ion-img style="width: 400px" src="assets/dog.jpeg"></ion-img>
+  <ion-card>
+      <ion-card-header>
+        Dog is loyal
+      </ion-card-header>
+      <ion-card-content>
+        Dog is super loyal
+      </ion-card-content>
+      <ion-toolbar>
+        <ion-buttons slot='end' >
+          <ion-button>Agree</ion-button>
+          <ion-button>Disagree</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+  </ion-card>
+  <ion-card>
+    <ion-item>
+        <ion-icon name="calendar"></ion-icon>
+      </ion-item>
+      <ion-item >
+        <ion-label>Date</ion-label>
+        <ion-datetime display-format="MMMM YYYY" min="2017" max="2020-10-31"></ion-datetime>
+      </ion-item>
+  </ion-card>
+</ion-content>
